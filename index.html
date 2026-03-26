@@ -3,76 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breno Eduardo Faria | Portfólio Profissional</title>
+    <title>Breno Eduardo Faria | Senior Systems Analyst</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    </head>
 <body>
 
     <header>
-        <div class="container">
-            <div class="logo">BEF<span>.systems</span></div>
+        <div class="container navbar">
+            <div class="logo">BRENO<span>.faria</span></div>
             <nav>
                 <a href="#home">Home</a>
                 <a href="#itinerario">Formação</a>
                 <a href="#profissional">Carreira</a>
                 <a href="#projetos">Projetos</a>
+                <a href="#pessoal">Lifestyle</a>
             </nav>
         </div>
     </header>
 
     <main class="container">
-        <section id="home">
-            <h1>Breno Eduardo Faria</h1>
-            <p class="subtitle">Analista de Sistemas Sênior & Técnico de TI Sênior</p>
-            <p>Atualmente cursando o 3º período de <strong>Análise e Desenvolvimento de Sistemas</strong> no <strong>IFTM</strong> (2026). Especialista em infraestrutura e lógica de programação avançada.</p>
-            <div class="contact-info">
-                <span>📍 Uberaba, MG</span> | <span>✉️ breno.faria@exemplo.com</span>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="badge">Disponível para Consultoria Sênior</span>
+                <h1>Construindo o futuro da <span class="highlight">Infraestrutura</span></h1>
+                <p class="subtitle">Analista de Sistemas Sênior & Especialista em TI com foco em performance e segurança de dados.</p>
+                <div class="contact-info">
+                    <span>📍 Uberaba, MG</span> | <span>✉️ breno.faria@exemplo.com</span>
+                </div>
             </div>
         </section>
 
         <section id="itinerario">
-            <h2>Itinerário Formativo</h2>
-            <div class="card">
-                <h3>Sistemas de Informação - IFTM</h3>
-                <p>Foco em disciplinas de base técnica forte e arquitetura de software.</p>
-                <ul>
-                    <li><strong>Estrutura de Dados:</strong> Implementação de Árvores AVL em C. <br><em>Ponto Positivo:</em> Lógica de baixo nível. <em>Negativo:</em> Alta curva de aprendizado.</li>
-                    <li><strong>Banco de Dados:</strong> Domínio de SQL e Álgebra Relacional.</li>
-                </ul>
+            <h2>Itinerário Formativo (IFTM)</h2>
+            <p class="section-intro">Atualmente no 3º período de ADS, focando na intersecção entre hardware e software de alta performance.</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Estrutura de Dados</h3>
+                        <span class="status">Concluído</span>
+                    </div>
+                    <p>Foco em implementação de Árvores AVL e manipulação de memória em C.</p>
+                    <div class="feedback">
+                        <p><strong>✅ Positivo:</strong> Compreensão profunda de como o software conversa com o hardware.</p>
+                        <p><strong>❌ Negativo:</strong> Curva de aprendizado íngreme na depuração de ponteiros.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Banco de Dados</h3>
+                        <span class="status">Em curso</span>
+                    </div>
+                    <p>Domínio de SQL Server e Álgebra Relacional para sistemas escaláveis.</p>
+                    <div class="feedback">
+                        <p><strong>✅ Positivo:</strong> Essencial para a estruturação lógica de grandes ERPs.</p>
+                        <p><strong>❌ Negativo:</strong> Normalização de dados complexos exige paciência redobrada.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="profissional">
             <h2>Atuação Profissional</h2>
-            <div class="card">
-                <h3>Experiência Sênior</h3>
-                <p>Atuação estratégica em análise de sistemas e suporte técnico avançado, garantindo a integridade de ambientes de missão crítica.</p>
+            <div class="experience-box">
+                <div class="exp-item">
+                    <div class="exp-date">2020 - Presente</div>
+                    <div class="exp-details">
+                        <h3>Analista de Sistemas & Técnico de TI Sênior</h3>
+                        <p>Liderança técnica em infraestrutura e suporte de missão crítica. Especialista em otimização de ambientes e segurança de rede.</p>
+                        <ul class="skills-tags">
+                            <li>Infraestrutura</li>
+                            <li>Lógica Avançada</li>
+                            <li>Suporte Sênior</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="projetos">
             <h2>Projetos Relevantes</h2>
-            <div class="project-grid">
-                <div class="card">
+            <div class="grid">
+                <div class="card project">
                     <h3>Data Structures Lab</h3>
-                    <p>Repositório focado em algoritmos de busca e balanceamento de árvores.</p>
+                    <p>Algoritmos de busca e balanceamento desenvolvidos em C, focados em eficiência de tempo de execução.</p>
+                    <a href="#" class="link">Ver Repositório →</a>
                 </div>
-                <div class="card">
+                <div class="card project">
                     <h3>Crypto Automation</h3>
-                    <p>Scripts em Python/C para automação de operações financeiras.</p>
+                    <p>Scripts complexos em Python/C para análise técnica e automação de operações financeiras.</p>
+                    <a href="#" class="link">Ver Documentação →</a>
                 </div>
             </div>
         </section>
 
         <section id="pessoal">
-            <h2>Família, Amigos e Hobby</h2>
-            <p>Entusiasta de hardware (Setup Acer Nitro V15) e focado em estética e bem-estar. Valorizo o tempo com minha família e minha namorada.</p>
+            <h2>Além do Código</h2>
+            <div class="pessoal-container">
+                <div class="pessoal-text">
+                    <p>Fora do terminal, sou um entusiasta de hardware de alta performance. Meu setup principal hoje é um <strong>Acer Nitro V15</strong>, que equilibra o trabalho técnico com o lazer.</p>
+                    <p>Valorizo o equilíbrio: tempo de qualidade com minha família e minha namorada são meus pilares de bem-estar. Acredito que a estética e a organização no ambiente de trabalho refletem na qualidade do código que entrego.</p>
+                </div>
+                <div class="media-placeholder">
+                    <span>[ Espaço para Vídeo / Slideshow de Hobbies ]</span>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Breno Eduardo Faria | IFTM - Campus Uberaba Parque Tecnológico</p>
+        <div class="container">
+            <p>&copy; 2026 Breno Eduardo Faria | IFTM - Uberaba Parque Tecnológico</p>
+            <p>Desenvolvido com foco em performance e semântica.</p>
+        </div>
     </footer>
 
 </body>
