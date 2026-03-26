@@ -3,51 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Breno Eduardo Faria</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Breno Eduardo Faria | Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>Breno Eduardo Faria</h1>
-        <nav>
-            <a href="#home">Home</a> | 
-            <a href="#itinerario">Itinerário Formativo</a> | 
-            <a href="#profissional">Atuação Profissional</a> | 
-            <a href="#projetos">Projetos</a> | 
-            <a href="#pessoal">Pessoal</a>
-        </nav>
+        <div class="container">
+            <div class="logo">BEF<span>.systems</span></div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#itinerario">Formação</a>
+                <a href="#profissional">Carreira</a>
+                <a href="#projetos">Projetos</a>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
-        <h2>Bem-vindo!</h2>
-        <p>Sou Analista de Sistemas Sênior e Técnico de TI Sênior. Atualmente, estou no 3º período de Análise e Desenvolvimento de Sistemas no IFTM.</p>
-    </section>
+    <main class="container">
+        <section id="home">
+            <h1>Breno Eduardo Faria</h1>
+            <p class="subtitle">Analista de Sistemas Sênior & Técnico de TI Sênior</p>
+            <p>Atualmente cursando o 3º período de <strong>Análise e Desenvolvimento de Sistemas</strong> no <strong>IFTM</strong> (2026). Especialista em infraestrutura e lógica de programação avançada.</p>
+            <div class="contact-info">
+                <span>📍 Uberaba, MG</span> | <span>✉️ breno.faria@exemplo.com</span>
+            </div>
+        </section>
 
-    <section id="itinerario">
-        <h2>Itinerário Formativo</h2>
-        <p>Estudo no Instituto Federal do Triângulo Mineiro[cite: 1]. Tenho focado em disciplinas como Estruturas de Dados (C), Banco de Dados (SQL) e Tecnologias para Interfaces Web.</p>
-    </section>
+        <section id="itinerario">
+            <h2>Itinerário Formativo</h2>
+            <div class="card">
+                <h3>Sistemas de Informação - IFTM</h3>
+                <p>Foco em disciplinas de base técnica forte e arquitetura de software.</p>
+                <ul>
+                    <li><strong>Estrutura de Dados:</strong> Implementação de Árvores AVL em C. <br><em>Ponto Positivo:</em> Lógica de baixo nível. <em>Negativo:</em> Alta curva de aprendizado.</li>
+                    <li><strong>Banco de Dados:</strong> Domínio de SQL e Álgebra Relacional.</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="profissional">
-        <h2>Atuação Profissional</h2>
-        <p>Experiência em análise de sistemas e suporte técnico avançado. Tenho interesse em áreas que envolvem inovação e automação.</p>
-    </section>
+        <section id="profissional">
+            <h2>Atuação Profissional</h2>
+            <div class="card">
+                <h3>Experiência Sênior</h3>
+                <p>Atuação estratégica em análise de sistemas e suporte técnico avançado, garantindo a integridade de ambientes de missão crítica.</p>
+            </div>
+        </section>
 
-    <section id="projetos">
-        <h2>Projetos de Destaque</h2>
-        <ul>
-            <li>Implementação e análise de Árvores AVL.</li>
-            <li>Desenvolvimento de scripts para automação em criptoativos.</li>
-        </ul>
-    </section>
+        <section id="projetos">
+            <h2>Projetos Relevantes</h2>
+            <div class="project-grid">
+                <div class="card">
+                    <h3>Data Structures Lab</h3>
+                    <p>Repositório focado em algoritmos de busca e balanceamento de árvores.</p>
+                </div>
+                <div class="card">
+                    <h3>Crypto Automation</h3>
+                    <p>Scripts em Python/C para automação de operações financeiras.</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="pessoal">
-        <h2>Família / Amigos / Hobby</h2>
-        <p>Além da tecnologia, gosto de hardware, estética e passar tempo com pessoas próximas.</p>
-    </section>
+        <section id="pessoal">
+            <h2>Família, Amigos e Hobby</h2>
+            <p>Entusiasta de hardware (Setup Acer Nitro V15) e focado em estética e bem-estar. Valorizo o tempo com minha família e minha namorada.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>Contato: seu-email@exemplo.com</p>
+        <p>&copy; 2026 Breno Eduardo Faria | IFTM - Campus Uberaba Parque Tecnológico</p>
     </footer>
+
 </body>
 </html>
